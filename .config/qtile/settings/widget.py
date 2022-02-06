@@ -7,8 +7,8 @@ widget = [
     # OS Icon
 
     left_corner(2),
-    logo("", 1, 2),
-    #logo("", 1, 2, 37),
+    #logo("", 1, 2),
+    logo("", 1, 2, 37),
     right_corner(2),
 
     separator(),
@@ -55,8 +55,8 @@ widget = [
 
     # Battery
     left_corner(4),
-    #icon_battery(1, 3, 20, 4),
-    battery(1, 1, 4),
+    icon_battery(1, 6, 20, 4),
+    battery(1, 6, 4),
     right_corner(4),
 
     separator(),

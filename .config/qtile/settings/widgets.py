@@ -125,7 +125,7 @@ def battery(cn_color, low_color, bg_color=0):
         background = colors[bg_color],
         format = "{percent:2.0%}",
         update_interval = 10,
-        low_foreground = low_color,
+        low_foreground = colors[low_color],
         low_percentage = 0.15
     )
 
@@ -137,11 +137,11 @@ def icon_battery(cn_color, low_color, size, bg_color=0):
         charge_char = "",
         discharge_char = "",
         full_char ="",
-        empty_char = "",
+        empty_char = "",
         unknown_char = "",
         update_interval = 1,
         fontsize = size,
-        low_foreground = low_color,
+        low_foreground = colors[low_color],
         low_percentage = 0.15
     )
 
