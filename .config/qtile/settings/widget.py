@@ -38,7 +38,7 @@ widget = [
     available_space(1, 4),
     right_corner(4, 2),
     icon("", 1, 2, 30),
-    unix_updates(1, 4, 2),
+    unix_updates(1, 6, 2),
     right_corner(2),
 
     widget.Spacer(),
